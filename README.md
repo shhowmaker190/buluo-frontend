@@ -11,6 +11,18 @@
 
 ---
 
+## 界面
+
+| 首页：部落筛选、帖子列表、热门榜、签到日历 | 帖子详情：正文、楼中楼评论、点赞 |
+|---|---|
+| ![首页](docs/screenshots/home.png) | ![帖子详情](docs/screenshots/detail.png) |
+
+| 私聊：会话列表与消息气泡 | 后台：待审帖子队列 |
+|---|---|
+| ![私聊](docs/screenshots/chat.png) | ![后台](docs/screenshots/admin.png) |
+
+> 截图使用 `sql/seed.sql` 里的演示账号拍摄。
+
 ## 页面
 
 | 路由 | 页面 | 能做什么 | 权限 |
@@ -278,15 +290,3 @@ server {
 2. 状态管理用模块级 `ref` 而非 Pinia，页面数量继续增长时应该换掉；
 3. 无国际化、无移动端专门适配（窄屏可用，但没有做专门的移动端布局）；
 4. 打包后是单个 chunk（约 1.3 MB），首屏加载可优化为路由级 `import()` 分包。
-
----
-
-## 截图
-
-<!-- 截图放 docs/screenshots/ 下，然后把下面注释里的表格取消注释 -->
-
-<!--
-| 首页 | 帖子详情 | 后台 |
-|---|---|---|
-| ![首页](docs/screenshots/home.png) | ![详情](docs/screenshots/detail.png) | ![后台](docs/screenshots/admin.png) |
--->
