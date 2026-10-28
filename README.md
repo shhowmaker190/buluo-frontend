@@ -1,6 +1,6 @@
 # 部落闲聊 · 兴趣部落社区系统（前端）
 
-Vue 3 前端，对应后端仓库 [vote-backend](https://github.com/shhowmaker190/vote-backend)。
+Vue 3 前端，对应后端仓库 [buluo-backend](https://github.com/shhowmaker190/buluo-backend)。
 按兴趣部落组织内容的社区论坛：发帖、评论、点赞、私聊、好友、签到等级、内容审核与后台管理，共 12 个页面。
 
 ## 技术栈
